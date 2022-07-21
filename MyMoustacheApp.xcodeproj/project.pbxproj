@@ -13,6 +13,9 @@
 		556417C628895EEB00FEFFC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 556417C428895EEB00FEFFC3 /* Main.storyboard */; };
 		556417C828895EED00FEFFC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 556417C728895EED00FEFFC3 /* Assets.xcassets */; };
 		556417CB28895EED00FEFFC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 556417C928895EED00FEFFC3 /* LaunchScreen.storyboard */; };
+		556417D428895F1400FEFFC3 /* Moustache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556417D328895F1400FEFFC3 /* Moustache.swift */; };
+		556417D628895F5800FEFFC3 /* AllMoustaches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556417D528895F5800FEFFC3 /* AllMoustaches.swift */; };
+		556417DD2889779C00FEFFC3 /* MoustacheCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556417DC2889779C00FEFFC3 /* MoustacheCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		556417C728895EED00FEFFC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		556417CA28895EED00FEFFC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		556417CC28895EED00FEFFC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		556417D328895F1400FEFFC3 /* Moustache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moustache.swift; sourceTree = "<group>"; };
+		556417D528895F5800FEFFC3 /* AllMoustaches.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllMoustaches.swift; sourceTree = "<group>"; };
+		556417DC2889779C00FEFFC3 /* MoustacheCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoustacheCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,42 @@
 		556417BD28895EEB00FEFFC3 /* MyMoustacheApp */ = {
 			isa = PBXGroup;
 			children = (
+				556417DE28897A5300FEFFC3 /* Controller */,
+				556417DB2889778000FEFFC3 /* View */,
+				556417D228895F0300FEFFC3 /* Model */,
 				556417BE28895EEB00FEFFC3 /* AppDelegate.swift */,
 				556417C028895EEB00FEFFC3 /* SceneDelegate.swift */,
-				556417C228895EEB00FEFFC3 /* ViewController.swift */,
 				556417C428895EEB00FEFFC3 /* Main.storyboard */,
 				556417C728895EED00FEFFC3 /* Assets.xcassets */,
 				556417C928895EED00FEFFC3 /* LaunchScreen.storyboard */,
 				556417CC28895EED00FEFFC3 /* Info.plist */,
 			);
 			path = MyMoustacheApp;
+			sourceTree = "<group>";
+		};
+		556417D228895F0300FEFFC3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				556417D328895F1400FEFFC3 /* Moustache.swift */,
+				556417D528895F5800FEFFC3 /* AllMoustaches.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		556417DB2889778000FEFFC3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				556417DC2889779C00FEFFC3 /* MoustacheCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		556417DE28897A5300FEFFC3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				556417C228895EEB00FEFFC3 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +174,9 @@
 				556417C328895EEB00FEFFC3 /* ViewController.swift in Sources */,
 				556417BF28895EEB00FEFFC3 /* AppDelegate.swift in Sources */,
 				556417C128895EEB00FEFFC3 /* SceneDelegate.swift in Sources */,
+				556417D628895F5800FEFFC3 /* AllMoustaches.swift in Sources */,
+				556417D428895F1400FEFFC3 /* Moustache.swift in Sources */,
+				556417DD2889779C00FEFFC3 /* MoustacheCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
